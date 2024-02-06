@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenidxs a Soyfullstack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/generalStyles.css">
+    <script src="https://kit.fontawesome.com/2da8e91210.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <header>
+
+        <div class="top-header">
+
+
+     
+                <img src="images/logosfs.png" alt="Logo de MercadoLiebre" class="logo-img">
+          
+
+            <div class="search-flex">
+                <input class="input-header" type="text" placeholder="Buscar cursos...">
+            </div> 
+
+
+            <div>
+           
+        
+                <button class="search-button" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+                </div>
+
+           
+            <div class="titulo-compra">
+                <p class="titulo-compra2"><i class="fas fa-hand-holding-usd"></i>Formate como Programador Web Full Stack Junior en Soy FullStack</p>
+            </div>
+
+
+
+        </div>
+
+
+        <nav class="nav-flex">
+
+            <ul>
+                <li><a href="#">¿Quiénes Somos?</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis cursos <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+
+        </nav>
+
+
+        <div class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </div>
+
+
+        </div>
+
+
+    </header> -->
+    <header class="header">
+        <picture class="container-logo1">
+            <a href="/">
+                <img src="images/logosfs.png" alt="logo-nodegaming">
+            </a>
+        </picture>
+        <div class="container-menu">
+            <i class="fa-solid fa-bars"></i>
+            <div>
+                <ul class="burguer-menu">
+                    <li><a href="/views/products.html">PRODUCTOS</a> </li>
+                    <li><a href="/views/productsCategory.html">CATEGORIAS</a> </li>
+                    <li><a href="/views/partners.html">PARTNERS</a> </li>
+                    <li><a href="/views/contacto.html">CONTACTO</a> </li>
+                    <li><a href="/views/ayuda.html">AYUDA</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="search-bar">
+            <form action="/search" method="GET">
+                <div>
+                    <input type="search" name="keyword" placeholder="Buscar Cursos...">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+        </div>
+        <section class="container-access">
+            <!-- <% if (locals.isLogged) { %> -->
+            <div class="user">
+                    <img src="images/default.jpg" width="20" height="20" style="border-radius: 100%;">
+                    <ul>
+                        <li><a href="/users/profile">mi perfil</a></li>
+                        <li><a href="/users/logout">cerrar sesion</a></li>
+                    </ul>
+            </div>
+            <!-- <% } else { %> -->
+            <div class="user">
+                <i class="fa-solid fa-user"></i>
+                <ul>
+                    <li><a href="/users/login">iniciar sesion</a></li>
+                    <li><a href="/users/register">registrarse</a></li>
+                </ul>
+            </div>
+            <!-- <% } %> -->
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="cart">
+                <a href="/products/cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+        </section>
+        <nav class="nav-bar">
+            <ul class="container-list">
+                <a href="/products">
+                    <li>productos</li>
+                </a>
+                <a href="/productsCategory">
+                    <li>categorias</li>
+                </a>
+                <a href="/partners">
+                    <li>partners</li>
+                </a>
+                <a href="/contacto">
+                    <li>contacto</li>
+                </a>
+                <a href="/ayuda">
+                    <li>ayuda</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <img src="images/banner1.png" alt="Banner de ofertas">
+    </section>
+    <main>
+        <section class="last-visit">
+            <u><h3>Cursos Gratuitos Disponibles en nuestro Canal de Youtube!</h3></u>
+            <div class="products">
+                <article>
+                    <img src="images/htmllogo.png" alt="Cafetera" class="product_img">
+                    <div class="main-article">
+                        <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+                        <p class="price">GRATIS</p>
+                        <p class="discount">100% OFF</p>
+                        <h4 class="description">Curso HTML - Nivel Junior</h4>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/csslogo.png" alt="MacBook" class="product_img">
+                    <div class="main-article">
+                        <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+                        <p class="price">GRATIS</p>
+                        <p class="discount">100% OFF</p>
+                        <h4 class="description">Curso CSS - Nivel Junior</h4>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/jslogo.png" alt="Teléfono Móvil Samsung Galaxy"
+                        class="product_img">
+                    <div class="main-article">
+                        <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+                        <p class="price">GRATIS</p>
+                        <p class="discount">100% OFF</p>
+                        <h4 class="description">Curso JAVASCRIPT - Nivel Junior</h4>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/reactlogo.png" alt="SmartTv Samsung" class="product_img">
+                    <div class="main-article">
+                        <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+                        <p class="price">GRATIS</p>
+                        <p class="discount">100% OFF</p>
+                        <h4 class="description">Curso REACT.JS - Nivel Junior</h4>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="offers">
+            
+            <div class="products">
+                <article>
+                    <img src="images/expresslogo.png" alt="Cafetera" class="product_img">
+                    <div class="main-article">
+                        <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+                        <p class="price">GRATIS</p>
+                        <p class="discount">100% OFF</p>
+                        <h4 class="description">Curso EXPRESS.JS - Nivel Junior</h4>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/nodelogo.png" alt="MacBook" class="product_img">
+                    <div class="main-article">
+                        <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+                        <p class="price">GRATIS</p>
+                        <p class="discount">100% OFF</p>
+                        <h4 class="description">Curso NODE.JS - Nivel Junior</h4>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/mysqllogo.png" alt="Teléfono Móvil Samsung Galaxy"
+                        class="product_img">
+                    <div class="main-article">
+                        <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+                        <p class="price">GRATIS</p>
+                        <p class="discount">100% OFF</p>
+                        <h4 class="description">Curso MYSQL - Nivel Junior</h4>
+                    </div>
+                </article>
+                <!-- <article>
+                    <img src="images/csslogo.png" alt="SmartTv Samsung" class="product_img">
+                    <div class="main-article">
+                        <i class="fas fa-truck" id="truck"></i>
+                        <p class="price">$23.200</p>
+                        <p class="discount">5% off</p>
+                        <h4 class="description">SmartTv Samsung 43"</h4>
+                    </div>
+                </article> -->
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="container-about">
+           
+            <h3>acerca de soyfullstack</h3>
+            <img src="images/sfsletras.png" alt="logo-nodegaming" id="sfs-letras">
+            <a href="#">
+                <p>¿quienes somos?</p>
+            </a>
+            <a href="#">
+                <p>ubicacion</p>
+            </a>
+            <a href="#">
+                <p>contacto</p>
+            </a>
+        
+        </section>
+        <section class="redes">
+            <div>
+                <div class="container-social-media">
+                    <div>
+                        <a href="https://www.instagram.com/soyfullstack/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/profile.php?id=100086007640891" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://twitter.com/SoyFullStack" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="derechos">
+            <p>Copyright &copy; SOYFULLSTACK</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>

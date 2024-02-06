@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenidxs a Soyfullstack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/generalStyles.css">
+    <script src="https://kit.fontawesome.com/2da8e91210.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <picture class="container-logo1">
+            <a href="/">
+                <img src="images/logosfs.png" alt="logo-nodegaming">
+            </a>
+        </picture>
+        <div class="container-menu">
+            <i class="fa-solid fa-bars"></i>
+            <div>
+                <ul class="burguer-menu">
+                    <li><a href="/views/products.html">PRODUCTOS</a> </li>
+                    <li><a href="/views/productsCategory">CATEGORIAS</a> </li>
+                    <li><a href="/views/partenrs.html">PARTNERS</a> </li>
+                    <li><a href="/views/constacto.html">CONTACTO</a> </li>
+                    <li><a href="/views/ayuda.html">AYUDA</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="search-bar">
+            <form action="/search" method="GET">
+                <div>
+                    <input type="search" name="keyword" placeholder="Buscar Cursos...">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+        </div>
+        <section class="container-access">
+            <div class="user">
+                    <img src="images/default.jpg" width="20" height="20" style="border-radius: 100%;">
+                    <ul>
+                        <li><a href="/users/profile">mi perfil</a></li>
+                        <li><a href="/users/logout">cerrar sesion</a></li>
+                    </ul>
+            </div>
+            <div class="user">
+                <i class="fa-solid fa-user"></i>
+                <ul>
+                    <li><a href="/users/login">iniciar sesion</a></li>
+                    <li><a href="/users/register">registrarse</a></li>
+                </ul>
+            </div>
+       
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="cart">
+                <a href="/products/cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+        </section>
+        <nav class="nav-bar">
+            <ul class="container-list">
+                <a href="/products">
+                    <li>productos</li>
+                </a>
+                <a href="/products/category">
+                    <li>categorias</li>
+                </a>
+                <a href="#">
+                    <li>partners</li>
+                </a>
+                <a href="#">
+                    <li>contacto</li>
+                </a>
+                <a href="#">
+                    <li>ayuda</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <!-- <section class="banner">
+        <img src="images/banner1.png" alt="Banner de ofertas">
+    </section> -->
+    <main>
+        <section class="last-visit">
+            <u><h3>Nuestros medios de comunicación oficial son:</h3></u>
+            <div class="products">
+                <article>
+                    <img src="images/facebook.png" alt="Cafetera" class="product_img">
+                    <div class="main-article">
+                        <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+                        <p class="price">----------</p>
+                        <p class="discount">----------</p>
+                        <h4 class="description">Facebook Oficial</h4>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/instagram.png" alt="MacBook" class="product_img">
+                    <div class="main-article">
+                        <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+                        <p class="price">----------</p>
+                        <p class="discount">----------</p>
+                        <h4 class="description">Instagram Oficial</h4>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/twitter.png" alt="Teléfono Móvil Samsung Galaxy"
+                        class="product_img">
+                    <div class="main-article">
+                        <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+                        <p class="price">----------</p>
+                        <p class="discount">----------</p>
+                        <h4 class="description">Twitter Oficial</h4>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="container-about">
+           
+            <h3>acerca de soyfullstack</h3>
+            <img src="images/sfsletras.png" alt="logo-nodegaming" id="sfs-letras">
+            <a href="#">
+                <p>¿quienes somos?</p>
+            </a>
+            <a href="#">
+                <p>ubicacion</p>
+            </a>
+            <a href="#">
+                <p>contacto</p>
+            </a>
+        
+        </section>
+        <section class="redes">
+            <div>
+                <div class="container-social-media">
+                    <div>
+                        <a href="https://www.instagram.com/soyfullstack/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/profile.php?id=100086007640891" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://twitter.com/SoyFullStack" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="derechos">
+            <p>Copyright &copy; SOYFULLSTACK</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
